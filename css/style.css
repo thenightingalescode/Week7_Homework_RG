@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Catamaran');
+
+body {
+  background-color: lightgray;
+  background-image: url("../images/texture-office.png");
+  font-family: 'Catamaran', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'BioRhyme', Georgia, serif;
+}
+
+.hero-top{
+  background:url("../images/Jumbo.jpg") no-repeat center center;
+  background-size: cover;
+  max-height:400px;
+  min-height:400px;
+}
+
+.info{
+  display: none;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,.2);
+}
+
+.highlights{
+  display:none;
+}
+
+.footer{
+  background-color: silver;
+}
+
+.highlightsButton{  min-width: 300px;
+  max-width: 3000px;}
+
+
+button{
+  min-width: 150px;
+  max-width: 150px;
+  margin-top: 3px;
+}
